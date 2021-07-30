@@ -17,12 +17,23 @@ struct ContentView: View {
                 ForEach (beerStore.beers) { beer in
                     ListCell(beer: beer)
                 }
+                .onDelete(perform: deleteItems)
+                .onMove(perform: moveItems)
             }
             .navigationBarTitle(Text("Beers"))
-            .navigationBarItems(leading: NavigationLink(destination: AddNewBeer(BeerStore: self.beerStore)) {
-                       Text("Add").foregroundColor(.blue)
-            }, trailing: EditButton())
+            
+            .navigationBarItems(leading: EditButton(), trailing: NavigationLink(destination: AddNewBeer(BeerStore: self.beerStore)){
+                Text("Add").foregroundColor(.blue)
+            })
         }
+    }
+    
+    func deleteItems(at offsets: IndexSet) {
+        beerStore.beers.remove(atOffsets: offsets)
+    }
+    
+    func moveItems(from source: IndexSet, to destination: Int) {
+        beerStore.beers.move(fromOffsets: source, toOffset: destination)
     }
 }
 
