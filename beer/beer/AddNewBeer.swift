@@ -1,0 +1,70 @@
+//
+//  AddNewBeer.swift
+//  beer
+//
+//  Created by Antonin Douillard on 30/07/2021.
+//
+
+import Foundation
+import SwiftUI
+
+struct AddNewBeer: View {
+    
+    @StateObject var BeerStore: BeerStore
+    @State private var name: String = ""
+    @State private var type: String = ""
+    @State private var percent_proof: String = ""
+    @State private var image_url: String = ""
+    
+    var body: some View {
+
+        Form {
+            
+            Section(header: Text("Beer details")) {
+                Image(systemName: "beer.fill").resizable().aspectRatio(contentMode: .fit).padding()
+                
+                DataInput(name: "Name", userInput: $name)
+                DataInput(name: "Type", userInput: $type)
+                DataInput(name: "Percent proof", userInput: $percent_proof)
+                
+            }
+            
+            Button(action: addNewBeer) {
+                Text("Add beer")
+            }
+
+        }
+    }
+    
+    func addNewBeer() {
+        
+        let newBeer = Beer(id: UUID().uuidString, name: name, type: type, percent_proof: 10, image_url: "mon_image")
+        
+        BeerStore.beers.append(newBeer)
+        
+    }
+    
+}
+
+
+struct AddNewBeer_Previews: PreviewProvider {
+    static var previews: some View {
+        AddNewBeer(BeerStore: BeerStore(beers: beerData))
+    }
+}
+
+struct DataInput: View {
+    
+    var name: String
+    @Binding var userInput: String
+    
+    var body: some View {
+        VStack(alignment: HorizontalAlignment.leading) {
+            Text(name)
+                .font(.headline)
+            TextField("Enter \(name)", text: $userInput)
+                .textFieldStyle(RoundedBorderTextFieldStyle())
+        }
+        .padding()
+    }
+}
