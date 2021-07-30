@@ -13,7 +13,7 @@ struct Beer : Codable, Identifiable {
     var name: String
     
     var type: String
-    var percent_proof: Int
+    var percent_proof: String
     
     var image_url: String
 }

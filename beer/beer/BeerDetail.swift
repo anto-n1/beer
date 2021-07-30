@@ -7,35 +7,33 @@
 
 import Foundation
 import SwiftUI
- 
+
 struct BeerDetail: View {
     
     let selectedBeer: Beer
     
     var body: some View {
         Form {
-                    Section(header: Text("Beer Details")) {
-                        Image(selectedBeer.image_url)
-                            .resizable()
-                            .cornerRadius(12.0)
-                            .aspectRatio(contentMode: .fit)
-                            .padding()
-                            
-                            Text(selectedBeer.name)
-                                .font(.headline)
-                    
-                            Text(selectedBeer.type)
-                                .font(.body)
-                        
-                            HStack {
-                                Text("Test").font(.headline)
-                                Spacer()
-                            }
-                    }
-             }
+            Section(header: Text("Beer Details")) {
+                Image(selectedBeer.image_url)
+                    .resizable()
+                    .cornerRadius(12.0)
+                    .aspectRatio(contentMode: .fit)
+                    .padding()
+                
+                Text(selectedBeer.name)
+                    .font(.headline)
+                
+                Text("Type : " + selectedBeer.type)
+                    .font(.body)
+                
+                Text("Percent proof : " + selectedBeer.percent_proof + "°")
+                    .font(.body)
+            }
+        }
     }
 }
- 
+
 struct BeerDetail_Previews: PreviewProvider {
     static var previews: some View {
         BeerDetail(selectedBeer: beerData[0])

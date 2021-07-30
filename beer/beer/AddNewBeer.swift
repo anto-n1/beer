@@ -21,7 +21,8 @@ struct AddNewBeer: View {
         Form {
             
             Section(header: Text("Beer details")) {
-                Image(systemName: "beer.fill").resizable().aspectRatio(contentMode: .fit).padding()
+                
+                //Image(systemName: "beer.fill").resizable().aspectRatio(contentMode: .fit).padding()
                 
                 DataInput(name: "Name", userInput: $name)
                 DataInput(name: "Type", userInput: $type)
@@ -38,9 +39,23 @@ struct AddNewBeer: View {
     
     func addNewBeer() {
         
-        let newBeer = Beer(id: UUID().uuidString, name: name, type: type, percent_proof: 10, image_url: "mon_image")
+        let newBeer = Beer(id: UUID().uuidString, name: name, type: type, percent_proof: percent_proof, image_url: "mon_image")
         
         BeerStore.beers.append(newBeer)
+        
+        let jsonString = "{\"location\": \"the moon\"}"
+
+        if let documentDirectory = FileManager.default.urls(for: .documentDirectory,
+                                                            in: .userDomainMask).first {
+            let pathWithFilename = documentDirectory.appendingPathComponent("beers.json")
+            do {
+                try jsonString.write(to: pathWithFilename,
+                                     atomically: true,
+                                     encoding: .utf8)
+            } catch {
+                // Handle error
+            }
+        }
         
     }
     

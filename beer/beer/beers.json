@@ -3,14 +3,14 @@
         "id": "1",
         "name": "Brugse Zot",
         "type": "Blond",
-        "percent_proof": 6,
+        "percent_proof": "6",
         "image_url": "brugse_zot"
     },
     {
         "id": "2",
         "name": "Bon secours",
         "type": "Blond",
-        "percent_proof": 8,
+        "percent_proof": "8",
         "image_url": "bon_secours"
     }
 ]
