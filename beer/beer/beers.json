@@ -268,5 +268,149 @@
         "drink_date": "27 July 2021",
         "image_url_official": "bryggja_official",
         "image_url_personal": "bryggja_personal"
+    },
+    {
+        "id": "31",
+        "name": "La Corne du bois des pendus",
+        "type": "Blond",
+        "percent_proof": "",
+        "drink_date": "28 July 2021",
+        "image_url_official": "la_corne_official",
+        "image_url_personal": "la_corne_personal"
+    },
+    {
+        "id": "32",
+        "name": "La Trappe",
+        "type": "Blond",
+        "percent_proof": "",
+        "drink_date": "30 July 2021",
+        "image_url_official": "la_trappe_official",
+        "image_url_personal": "la_trappe_personal"
+    },
+    {
+        "id": "33",
+        "name": "Chimay",
+        "type": "Blond",
+        "percent_proof": "",
+        "drink_date": "30 July 2021",
+        "image_url_official": "chimay_official",
+        "image_url_personal": "chimay_personal"
+    },
+    {
+        "id": "34",
+        "name": "Steen Brugge",
+        "type": "Blond",
+        "percent_proof": "",
+        "drink_date": "30 July 2021",
+        "image_url_official": "steen_brugge_official",
+        "image_url_personal": "steen_brugge_personal"
+    },
+    {
+        "id": "35",
+        "name": "Ter Dolen",
+        "type": "Blond",
+        "percent_proof": "6,1",
+        "drink_date": "30 July 2021",
+        "image_url_official": "ter_dolen_official",
+        "image_url_personal": "ter_dolen_personal"
+    },
+    {
+        "id": "36",
+        "name": "Beer van Brugge",
+        "type": "Blond",
+        "percent_proof": "9,9",
+        "drink_date": "31 July 2021",
+        "image_url_official": "beer_van_brugge_official",
+        "image_url_personal": "beer_van_brugge_personal"
+    },
+    {
+        "id": "37",
+        "name": "Poker Face",
+        "type": "Blond",
+        "percent_proof": "",
+        "drink_date": "31 July 2021",
+        "image_url_official": "poker_face_official",
+        "image_url_personal": "poker_face_personal"
+    },
+    {
+        "id": "38",
+        "name": "SchuppenBoer",
+        "type": "Blond",
+        "percent_proof": "8,5",
+        "drink_date": "31 July 2021",
+        "image_url_official": "schuppenboer_official",
+        "image_url_personal": "schuppenboer_personal"
+    },
+    {
+        "id": "39",
+        "name": "Delirium",
+        "type": "Blond",
+        "percent_proof": "8,5",
+        "drink_date": "31 July 2021",
+        "image_url_official": "delirium_official",
+        "image_url_personal": "delirium_personal"
+    },
+    {
+        "id": "40",
+        "name": "Cornet",
+        "type": "Blond",
+        "percent_proof": "",
+        "drink_date": "11 August 2021",
+        "image_url_official": "cornet_official",
+        "image_url_personal": "cornet_personal"
+    },
+    {
+        "id": "41",
+        "name": "Keizer Karel Charles Quint",
+        "type": "Blond",
+        "percent_proof": "",
+        "drink_date": "12 August 2021",
+        "image_url_official": "keizer_karel_official",
+        "image_url_personal": "keizer_karel_personal"
+    },
+    {
+        "id": "42",
+        "name": "Florefee Tripel",
+        "type": "Blond",
+        "percent_proof": "8",
+        "drink_date": "13 August 2021",
+        "image_url_official": "florefee_tripel_official",
+        "image_url_personal": "florefee_tripel_personal"
+    },
+    {
+        "id": "43",
+        "name": "Queue de Charrue Ploegsteert",
+        "type": "Blond",
+        "percent_proof": "",
+        "drink_date": "13 August 2021",
+        "image_url_official": "queue_de_charrue_official",
+        "image_url_personal": "queue_de_charrue_personal"
+    },
+    {
+        "id": "44",
+        "name": "Florefee",
+        "type": "Blond",
+        "percent_proof": "",
+        "drink_date": "13 August 2021",
+        "image_url_official": "florefee_official",
+        "image_url_personal": "florefee_personal"
+    },
+    {
+        "id": "45",
+        "name": "Moeder Overste",
+        "type": "Blond",
+        "percent_proof": "8",
+        "drink_date": "14 August 2021",
+        "image_url_official": "moeder_overste_official",
+        "image_url_personal": "moeder_overste_official_personal"
+    },
+    {
+        "id": "46",
+        "name": "Bière des amis",
+        "type": "Blond",
+        "percent_proof": "",
+        "drink_date": "14 August 2021",
+        "image_url_official": "biere_des_amis_official",
+        "image_url_personal": "biere_des_amis_personal"
     }
 ]
