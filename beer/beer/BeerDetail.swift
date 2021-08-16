@@ -29,6 +29,8 @@ struct BeerDetail: View {
                 
                 Text("Percent proof : " + selectedBeer.percent_proof + "°")
                     .font(.body)
+                
+                Text("Drink date : " + selectedBeer.drink_date)
             }
         }
     }

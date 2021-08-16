@@ -208,12 +208,12 @@
     },
     {
         "id": "24",
-        "name": "Bush",
+        "name": "Bush Triple",
         "type": "Blond",
         "percent_proof": "10,5",
         "drink_date": "21 July 2021",
-        "image_url_official": "bush_official",
-        "image_url_personal": "bush_personal"
+        "image_url_official": "bush_triple_official",
+        "image_url_personal": "bush_triple_personal"
     },
     {
         "id": "25",
