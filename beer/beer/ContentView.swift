@@ -52,7 +52,7 @@ struct ListCell: View {
     var body: some View {
         NavigationLink(destination: BeerDetail(selectedBeer: beer)) {
             HStack {
-                Image(beer.image_url)
+                Image(beer.image_url_official)
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 100, height: 60)

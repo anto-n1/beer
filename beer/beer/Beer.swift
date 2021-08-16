@@ -15,5 +15,6 @@ struct Beer : Codable, Identifiable {
     var type: String
     var percent_proof: String
     
-    var image_url: String
+    var image_url_official: String
+    var image_url_personal: String
 }

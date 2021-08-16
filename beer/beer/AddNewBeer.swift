@@ -14,7 +14,8 @@ struct AddNewBeer: View {
     @State private var name: String = ""
     @State private var type: String = ""
     @State private var percent_proof: String = ""
-    @State private var image_url: String = ""
+    @State private var image_url_official: String = ""
+    @State private var image_url_personal: String = ""
     
     var body: some View {
 
@@ -39,7 +40,7 @@ struct AddNewBeer: View {
     
     func addNewBeer() {
         
-        let newBeer = Beer(id: UUID().uuidString, name: name, type: type, percent_proof: percent_proof, image_url: "mon_image")
+        let newBeer = Beer(id: UUID().uuidString, name: name, type: type, percent_proof: percent_proof, image_url_official: "mon_image", image_url_personal: "mon_image")
         
         BeerStore.beers.append(newBeer)
         

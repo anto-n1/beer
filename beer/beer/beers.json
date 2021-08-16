@@ -4,13 +4,15 @@
         "name": "Brugse Zot",
         "type": "Blond",
         "percent_proof": "6",
-        "image_url": "brugse_zot"
+        "image_url_official": "brugse_zot_official",
+        "image_url_personal": "brugse_zot_personal"
     },
     {
         "id": "2",
         "name": "Bon secours",
         "type": "Blond",
         "percent_proof": "8",
-        "image_url": "bon_secours"
+        "image_url_official": "bon_secours_official",
+        "image_url_personal": "bon_secours_personal"
     }
 ]

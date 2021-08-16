@@ -15,7 +15,7 @@ struct BeerDetail: View {
     var body: some View {
         Form {
             Section(header: Text("Beer Details")) {
-                Image(selectedBeer.image_url)
+                Image(selectedBeer.image_url_official)
                     .resizable()
                     .cornerRadius(12.0)
                     .aspectRatio(contentMode: .fit)
