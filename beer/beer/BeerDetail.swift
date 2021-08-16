@@ -21,16 +21,25 @@ struct BeerDetail: View {
                     .aspectRatio(contentMode: .fit)
                     .padding()
                 
-                Text(selectedBeer.name)
-                    .font(.headline)
+                HStack {
+                    Text("Name : ").font(.body)
+                    Text(selectedBeer.name).font(.headline)
+                }
                 
-                Text("Type : " + selectedBeer.type)
-                    .font(.body)
+                HStack {
+                    Text("Type : ").font(.body)
+                    Text(selectedBeer.type).font(.headline)
+                }
                 
-                Text("Percent proof : " + selectedBeer.percent_proof + "°")
-                    .font(.body)
+                HStack {
+                    Text("Percent proof : ").font(.body)
+                    Text(selectedBeer.percent_proof + "°").font(.headline)
+                }
                 
-                Text("Drink date : " + selectedBeer.drink_date)
+                HStack {
+                    Text("Drink date : ").font(.body)
+                    Text(selectedBeer.drink_date).font(.headline)
+                }
             }
         }
     }

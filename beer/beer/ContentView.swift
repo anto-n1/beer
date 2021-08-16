@@ -56,7 +56,10 @@ struct ListCell: View {
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 100, height: 60)
-                Text(beer.name)
+                VStack(alignment: .leading, spacing: 10) {
+                    Text(beer.name).font(.headline).bold()
+                    Text(beer.type + " - " + beer.percent_proof + "°").fontWeight(.light)
+                }
             }
         }
     }
