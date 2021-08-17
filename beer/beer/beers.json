@@ -30,7 +30,7 @@
         "id": "4",
         "name": "Brugge Tripel",
         "type": "Blond",
-        "percent_proof": "",
+        "percent_proof": "8,7",
         "drink_date": "9 July 2021",
         "image_url_official": "brugge_tripel_official",
         "image_url_personal": "brugge_tripel_personal"
@@ -39,7 +39,7 @@
         "id": "5",
         "name": "Siphon Brewing",
         "type": "Blond",
-        "percent_proof": "",
+        "percent_proof": "4,5",
         "drink_date": "10 July 2021",
         "image_url_official": "siphon_official",
         "image_url_personal": "siphon_personal"
@@ -48,7 +48,7 @@
         "id": "6",
         "name": "Gentse Strop",
         "type": "Blond",
-        "percent_proof": "",
+        "percent_proof": "6,9",
         "drink_date": "10 July 2021",
         "image_url_official": "gentse_strop_official",
         "image_url_personal": "gentse_strop_personal"
