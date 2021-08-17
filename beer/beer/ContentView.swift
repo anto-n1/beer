@@ -17,32 +17,55 @@ struct ContentView: View {
         NavigationView {
             
             List {
+            
+                // Search bar
                 HStack{
-                    TextField("Search beer", text: $searchText)
-                        .padding(.leading, 24)
+                    HStack{
+                        TextField("Search beer", text: $searchText)
+                            .padding(.leading, 24)
+                    }
+                    .padding()
+                    .background(Color(.systemGray5))
+                    .cornerRadius(6)
+                    //.padding(.horizontal)
+                    .onTapGesture(perform: {
+                        isSearching = true
+                    })
+                    .overlay(
+                        HStack {
+                            Image(systemName: "magnifyingglass")
+                            Spacer()
+                            
+                            if isSearching {
+                                Button(action: { searchText = "" }, label: {
+                                    Image(systemName: "xmark.circle.fill")
+                                })
+                            }
+                            
+                        }.padding(.leading, 15)
+                        .padding(.trailing, 15)
+                        .foregroundColor(.gray)
+                    ).transition(.move(edge: .trailing))
+                    .animation(.spring())
+                    
+                    if isSearching {
+                        Button(action: {
+                            isSearching = false
+                            searchText = ""
+                            
+                            // Keyboard disapear
+                            UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
+                            
+                        }, label: {
+                            Text("Cancel")
+                                .padding(.trailing)
+                                .padding(.leading, 0)
+                        })
+                        .transition(.move(edge: .trailing))
+                        .animation(.spring())
+                    }
                 }
-                .padding()
-                .background(Color(.systemGray5))
-                .cornerRadius(6)
-                //.padding(.horizontal)
-                .onTapGesture(perform: {
-                    isSearching = true
-                })
-                .overlay(
-                    HStack {
-                        Image(systemName: "magnifyingglass")
-                        Spacer()
-                        
-                        if isSearching {
-                            Button(action: { searchText = "" }, label: {
-                                Image(systemName: "xmark.circle.fill")
-                            })
-                        }
-                        
-                    }.padding(.leading, 15)
-                    .padding(.trailing, 15)
-                    .foregroundColor(.gray)
-                )
+                
                 
                 ForEach(beerStore.beers.filter({ "\($0)".contains(searchText) || searchText.isEmpty })) { beer in
                     ListCell(beer: beer)
