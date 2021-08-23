@@ -102,7 +102,7 @@
         "id": "12",
         "name": "Filou",
         "type": "Blond",
-        "percent_proof": "",
+        "percent_proof": "8,5",
         "drink_date": "15 July 2021",
         "image_url_official": "filou_official",
         "image_url_personal": "filou_personal"
@@ -111,7 +111,7 @@
         "id": "13",
         "name": "Fort Lapin",
         "type": "Blond",
-        "percent_proof": "",
+        "percent_proof": "8",
         "drink_date": "16 July 2021",
         "image_url_official": "fort_lapin_official",
         "image_url_personal": "fort_lapin_personal"
@@ -120,7 +120,7 @@
         "id": "14",
         "name": "Bar Belge",
         "type": "Blond",
-        "percent_proof": "",
+        "percent_proof": "6",
         "drink_date": "16 July 2021",
         "image_url_official": "bar_belge_official",
         "image_url_personal": "bar_belge_personal"
@@ -129,7 +129,7 @@
         "id": "15",
         "name": "Maredsous",
         "type": "Blond",
-        "percent_proof": "",
+        "percent_proof": "6",
         "drink_date": "16 July 2021",
         "image_url_official": "maredsus_official",
         "image_url_personal": "maredsus_personal"
@@ -138,7 +138,7 @@
         "id": "16",
         "name": "Damme blond",
         "type": "Blond",
-        "percent_proof": "",
+        "percent_proof": "6",
         "drink_date": "17 July 2021",
         "image_url_official": "damme_blond_official",
         "image_url_personal": "damme_blond_personal"
@@ -147,7 +147,7 @@
         "id": "17",
         "name": "Tongerlo",
         "type": "Blond",
-        "percent_proof": "",
+        "percent_proof": "6,5",
         "drink_date": "17 July 2021",
         "image_url_official": "tongerlo_official",
         "image_url_personal": "tongerlo_personal"
@@ -156,7 +156,7 @@
         "id": "18",
         "name": "Le fruit défendu",
         "type": "Blond",
-        "percent_proof": "",
+        "percent_proof": "8,5",
         "drink_date": "17 July 2021",
         "image_url_official": "fruit_defendu_official",
         "image_url_personal": "fruit_defendu_personal"
@@ -165,7 +165,7 @@
         "id": "19",
         "name": "Augustijn",
         "type": "Blond",
-        "percent_proof": "",
+        "percent_proof": "9",
         "drink_date": "18 July 2021",
         "image_url_official": "augustijn_official",
         "image_url_personal": "augustijn_personal"
@@ -183,7 +183,7 @@
         "id": "21",
         "name": "Gust",
         "type": "Blond",
-        "percent_proof": "",
+        "percent_proof": "7,8",
         "drink_date": "19 July 2021",
         "image_url_official": "gust_official",
         "image_url_personal": "gust_personal"
@@ -192,7 +192,7 @@
         "id": "22",
         "name": "Blonden OS",
         "type": "Blond",
-        "percent_proof": "",
+        "percent_proof": "6,5",
         "drink_date": "20 July 2021",
         "image_url_official": "blonden_os_official",
         "image_url_personal": "blonden_os_personal"
@@ -219,7 +219,7 @@
         "id": "25",
         "name": "Primus",
         "type": "Blond",
-        "percent_proof": "",
+        "percent_proof": "5,2",
         "drink_date": "22 July 2021",
         "image_url_official": "primus_official",
         "image_url_personal": "primus_personal"
@@ -228,7 +228,7 @@
         "id": "26",
         "name": "Gouden Carolus",
         "type": "Blond",
-        "percent_proof": "",
+        "percent_proof": "9",
         "drink_date": "22 July 2021",
         "image_url_official": "gouden_carolus_official",
         "image_url_personal": "gouden_carolus_personal"
@@ -246,7 +246,7 @@
         "id": "28",
         "name": "Jopen",
         "type": "Blond",
-        "percent_proof": "",
+        "percent_proof": "6,5",
         "drink_date": "24 July 2021",
         "image_url_official": "jopen_official",
         "image_url_personal": "jopen_personal"
@@ -255,7 +255,7 @@
         "id": "29",
         "name": "Cuvée Jeun'Homme",
         "type": "Blond",
-        "percent_proof": "",
+        "percent_proof": "6,5",
         "drink_date": "26 July 2021",
         "image_url_official": "cuvee_jeun_homme_official",
         "image_url_personal": "cuvee_jeun_homme_personal"
@@ -264,7 +264,7 @@
         "id": "30",
         "name": "Bryggja",
         "type": "Blond",
-        "percent_proof": "",
+        "percent_proof": "8,5",
         "drink_date": "27 July 2021",
         "image_url_official": "bryggja_official",
         "image_url_personal": "bryggja_personal"
@@ -273,7 +273,7 @@
         "id": "31",
         "name": "La Corne du bois des pendus",
         "type": "Blond",
-        "percent_proof": "",
+        "percent_proof": "5,9",
         "drink_date": "28 July 2021",
         "image_url_official": "la_corne_official",
         "image_url_personal": "la_corne_personal"
@@ -282,7 +282,7 @@
         "id": "32",
         "name": "La Trappe",
         "type": "Blond",
-        "percent_proof": "",
+        "percent_proof": "6,5",
         "drink_date": "30 July 2021",
         "image_url_official": "la_trappe_official",
         "image_url_personal": "la_trappe_personal"
@@ -291,7 +291,7 @@
         "id": "33",
         "name": "Chimay",
         "type": "Blond",
-        "percent_proof": "",
+        "percent_proof": "4,8",
         "drink_date": "30 July 2021",
         "image_url_official": "chimay_official",
         "image_url_personal": "chimay_personal"
@@ -300,7 +300,7 @@
         "id": "34",
         "name": "Steen Brugge",
         "type": "Blond",
-        "percent_proof": "",
+        "percent_proof": "6,5",
         "drink_date": "30 July 2021",
         "image_url_official": "steen_brugge_official",
         "image_url_personal": "steen_brugge_personal"
@@ -327,7 +327,7 @@
         "id": "37",
         "name": "Poker Face",
         "type": "Blond",
-        "percent_proof": "",
+        "percent_proof": "5,5",
         "drink_date": "31 July 2021",
         "image_url_official": "poker_face_official",
         "image_url_personal": "poker_face_personal"
@@ -354,7 +354,7 @@
         "id": "40",
         "name": "Cornet",
         "type": "Blond",
-        "percent_proof": "",
+        "percent_proof": "8,5",
         "drink_date": "11 August 2021",
         "image_url_official": "cornet_official",
         "image_url_personal": "cornet_personal"
@@ -363,7 +363,7 @@
         "id": "41",
         "name": "Keizer Karel Charles Quint",
         "type": "Blond",
-        "percent_proof": "",
+        "percent_proof": "8,5",
         "drink_date": "12 August 2021",
         "image_url_official": "keizer_karel_official",
         "image_url_personal": "keizer_karel_personal"
@@ -381,7 +381,7 @@
         "id": "43",
         "name": "Queue de Charrue Ploegsteert",
         "type": "Blond",
-        "percent_proof": "",
+        "percent_proof": "6,6",
         "drink_date": "13 August 2021",
         "image_url_official": "queue_de_charrue_official",
         "image_url_personal": "queue_de_charrue_personal"
@@ -390,7 +390,7 @@
         "id": "44",
         "name": "Florefee",
         "type": "Blond",
-        "percent_proof": "",
+        "percent_proof": "6,3",
         "drink_date": "13 August 2021",
         "image_url_official": "florefee_official",
         "image_url_personal": "florefee_personal"
@@ -408,7 +408,7 @@
         "id": "46",
         "name": "Bière des amis",
         "type": "Blond",
-        "percent_proof": "",
+        "percent_proof": "5,8",
         "drink_date": "14 August 2021",
         "image_url_official": "biere_des_amis_official",
         "image_url_personal": "biere_des_amis_personal"
@@ -417,7 +417,7 @@
         "id": "47",
         "name": "Coast",
         "type": "Blond",
-        "percent_proof": "7,0",
+        "percent_proof": "7",
         "drink_date": "20 August 2021",
         "image_url_official": "coast_official",
         "image_url_personal": "coast_personal"
@@ -480,7 +480,7 @@
         "id": "54",
         "name": "La chouffe",
         "type": "Blond",
-        "percent_proof": "8,0",
+        "percent_proof": "8",
         "drink_date": "22 August 2021",
         "image_url_official": "chouffe_official",
         "image_url_personal": "chouffe_personal"
