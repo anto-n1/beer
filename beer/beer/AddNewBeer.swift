@@ -31,6 +31,7 @@ struct AddNewBeer: View {
                 DataInput(name: "Percent proof", userInput: $percent_proof)
                 DataInput(name: "Drink date", userInput: $drink_date)
                 
+                
             }
             
             Button(action: addNewBeer) {
@@ -42,7 +43,7 @@ struct AddNewBeer: View {
     
     func addNewBeer() {
         
-        let newBeer = Beer(id: UUID().uuidString, name: name, type: type, percent_proof: percent_proof, drink_date: "Date", image_url_official: "mon_image", image_url_personal: "mon_image")
+        let newBeer = Beer(id: UUID().uuidString, name: name, type: type, percent_proof: percent_proof, drink_date: drink_date, image_url_official: "mon_image", image_url_personal: "mon_image")
         
         BeerStore.beers.append(newBeer)
         

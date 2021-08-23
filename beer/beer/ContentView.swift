@@ -36,12 +36,6 @@ struct ContentView: View {
                             Image(systemName: "magnifyingglass")
                             Spacer()
                             
-                            if isSearching {
-                                Button(action: { searchText = "" }, label: {
-                                    Image(systemName: "xmark.circle.fill")
-                                })
-                            }
-                            
                         }.padding(.leading, 15)
                         .padding(.trailing, 15)
                         .foregroundColor(.gray)
@@ -59,7 +53,7 @@ struct ContentView: View {
                         }, label: {
                             Text("Cancel")
                                 .padding(.trailing)
-                                .padding(.leading, 0)
+                                .padding(.leading, 8)
                         })
                         .transition(.move(edge: .trailing))
                         .animation(.spring())
@@ -67,8 +61,8 @@ struct ContentView: View {
                 }
                 
                 
-                ForEach(beerStore.beers.filter({ "\($0)".contains(searchText) || searchText.isEmpty })) { beer in
-                    ListCell(beer: beer)
+                ForEach(beerStore.beers.filter({ "\($0)".contains(searchText) || searchText.isEmpty })) {
+                    beer in ListCell(beer: beer)
                 }
                 .onDelete(perform: deleteItems)
                 .onMove(perform: moveItems)
@@ -78,7 +72,7 @@ struct ContentView: View {
             .padding(.trailing, -5)
             
             .navigationBarItems(leading: EditButton(), trailing: NavigationLink(destination: AddNewBeer(BeerStore: self.beerStore)){
-                Text("Add").foregroundColor(.green)
+                Text("Add").foregroundColor(.blue)
             })
         }
     }
