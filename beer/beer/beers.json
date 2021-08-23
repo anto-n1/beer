@@ -412,5 +412,77 @@
         "drink_date": "14 August 2021",
         "image_url_official": "biere_des_amis_official",
         "image_url_personal": "biere_des_amis_personal"
+    },
+    {
+        "id": "47",
+        "name": "Coast",
+        "type": "Blond",
+        "percent_proof": "7,0",
+        "drink_date": "20 August 2021",
+        "image_url_official": "coast_official",
+        "image_url_personal": "coast_personal"
+    },
+    {
+        "id": "48",
+        "name": "Bux",
+        "type": "Blond",
+        "percent_proof": "6,5",
+        "drink_date": "20 August 2021",
+        "image_url_official": "bux_official",
+        "image_url_personal": "bux_personal"
+    },
+    {
+        "id": "49",
+        "name": "Barbe d'or",
+        "type": "Blond",
+        "percent_proof": "7,5",
+        "drink_date": "20 August 2021",
+        "image_url_official": "barbe_or_official",
+        "image_url_personal": "barbe_or_personal"
+    },
+    {
+        "id": "50",
+        "name": "Tête de mort",
+        "type": "Blond",
+        "percent_proof": "8,1",
+        "drink_date": "20 August 2021",
+        "image_url_official": "tete_de_mort_official",
+        "image_url_personal": "tete_de_mort_personal"
+    },
+    {
+        "id": "51",
+        "name": "Ciney",
+        "type": "Blond",
+        "percent_proof": "7",
+        "drink_date": "20 August 2021",
+        "image_url_official": "ciney_official",
+        "image_url_personal": "ciney_personal"
+    },
+    {
+        "id": "52",
+        "name": "Tripel Achiel",
+        "type": "Blond",
+        "percent_proof": "8,5",
+        "drink_date": "21 August 2021",
+        "image_url_official": "tripel_achiel_official",
+        "image_url_personal": "tripel_achiel_personal"
+    },
+    {
+        "id": "53",
+        "name": "St Feuillien Tripel",
+        "type": "Blond",
+        "percent_proof": "8,5",
+        "drink_date": "22 August 2021",
+        "image_url_official": "st_feuillien_tripel_official",
+        "image_url_personal": "st_feuillien_tripel_personal"
+    },
+    {
+        "id": "54",
+        "name": "La chouffe",
+        "type": "Blond",
+        "percent_proof": "8,0",
+        "drink_date": "22 August 2021",
+        "image_url_official": "chouffe_official",
+        "image_url_personal": "chouffe_personal"
     }
 ]
