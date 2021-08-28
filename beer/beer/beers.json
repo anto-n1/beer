@@ -493,5 +493,32 @@
         "drink_date": "26 August 2021",
         "image_url_official": "urthel_official",
         "image_url_personal": "urthel_personal"
+    },
+    {
+        "id": "56",
+        "name": "St Bernardus Pater 6",
+        "type": "Brown",
+        "percent_proof": "6,7",
+        "drink_date": "27 August 2021",
+        "image_url_official": "bernardus_pater_6_official",
+        "image_url_personal": "bernardus_pater_6_personal"
+    },
+    {
+        "id": "57",
+        "name": "Seef",
+        "type": "Blond",
+        "percent_proof": "6,5",
+        "drink_date": "27 August 2021",
+        "image_url_official": "seef_official",
+        "image_url_personal": "seef_personal"
+    },
+    {
+        "id": "58",
+        "name": "Préaris",
+        "type": "Blond",
+        "percent_proof": "6",
+        "drink_date": "27 August 2021",
+        "image_url_official": "prearis_official",
+        "image_url_personal": "prearis_personal"
     }
 ]
