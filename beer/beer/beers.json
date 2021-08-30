@@ -520,5 +520,50 @@
         "drink_date": "27 August 2021",
         "image_url_official": "prearis_official",
         "image_url_personal": "prearis_personal"
+    },
+    {
+        "id": "59",
+        "name": "La Guillotine",
+        "type": "Blond",
+        "percent_proof": "8,5",
+        "drink_date": "28 August 2021",
+        "image_url_official": "guillotine_official",
+        "image_url_personal": "guillotine_personal"
+    },
+    {
+        "id": "60",
+        "name": "Papegaei",
+        "type": "Blond",
+        "percent_proof": "8",
+        "drink_date": "28 August 2021",
+        "image_url_official": "papegaei_official",
+        "image_url_personal": "papegaei_personal"
+    },
+    {
+        "id": "61",
+        "name": "Jungle Joy",
+        "type": "Blond",
+        "percent_proof": "5,9",
+        "drink_date": "28 August 2021",
+        "image_url_official": "jungle_joy_official",
+        "image_url_personal": "jungle_joy_personal"
+    },
+    {
+        "id": "62",
+        "name": "Orval",
+        "type": "Blond",
+        "percent_proof": "6,2",
+        "drink_date": "29 August 2021",
+        "image_url_official": "orval_official",
+        "image_url_personal": "orval_personal"
+    },
+    {
+        "id": "63",
+        "name": "Moinette",
+        "type": "Blond",
+        "percent_proof": "8,5",
+        "drink_date": "29 August 2021",
+        "image_url_official": "moinette_official",
+        "image_url_personal": "moinette_personal"
     }
 ]
