@@ -71,9 +71,10 @@ struct ContentView: View {
             .padding(.leading, -5)
             .padding(.trailing, -5)
             
-            .navigationBarItems(leading: EditButton(), trailing: NavigationLink(destination: AddNewBeer(BeerStore: self.beerStore)){
-                Text("Add").foregroundColor(.blue)
-            })
+            // Add button, removed because not functional
+            //.navigationBarItems(leading: EditButton(), trailing: NavigationLink(destination: AddNewBeer(BeerStore: self.beerStore)){
+            //    Text("Add").foregroundColor(.blue)
+            //})
         }
     }
     
