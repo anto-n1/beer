@@ -2,4 +2,5 @@
 
 iOS application to track the beers you've drunk.
 
-if iphone is connected then disconnected : sudo killall -STOP -c usbd
+Small application developed just to track the beers I have
+drunked during an internship in Belgium. :)
